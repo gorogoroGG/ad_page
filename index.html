@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatchBuzz | The Ultimate Match Notification Tool</title>
+    <meta name="description" content="勝利の瞬間を逃さない。MatchBuzzはゲーマーのための究極のマッチ通知ツールです。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="MatchBuzz Logo">
+                <span>MatchBuzz</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#pricing">Plan</a></li>
+                </ul>
+                <a href="https://store.steampowered.com/app/4233930/MatchBuzz/" target="_blank"
+                    class="btn btn-primary small">
+                    Download
+                </a>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Split Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text fade-in">
+                    <span class="badge">Version 1.0 Available</span>
+                    <h1>Never Miss<br>A Match.</h1>
+                    <p class="subtitle">勝利の瞬間を逃さない。<br>ゲーマーのための、究極のマッチ通知ツール。</p>
+                    <div class="cta-buttons">
+                        <a href="https://store.steampowered.com/app/4233930/MatchBuzz/" target="_blank"
+                            class="btn btn-primary">
+                            Steamでダウンロード
+                        </a>
+                        <a href="https://discord.gg/JVfYAPKNuP" target="_blank" class="btn btn-outline">
+                            Discordに参加
+                        </a>
+                    </div>
+                    <div class="user-proof">
+                        <span class="proof-text">Apex Legends / Overwatch 2 対応</span>
+                    </div>
+                </div>
+                <div class="hero-image fade-in delay-200">
+                    <!-- Decorate with abstract shapes or device frame typically, using simpler image here -->
+                    <div class="image-wrapper">
+                        <img src="hero.png" alt="App Dashboard">
+                        <div class="floating-card card-1">
+                            <span>🎮 Match Found!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Grid (Highlights) -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Why MatchBuzz?</h2>
+                    <p>ゲームに集中するための、必要不可欠な機能。</p>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-card fade-in-up">
+                        <div class="icon-box">🔔</div>
+                        <h3>Instant Notification</h3>
+                        <p>マッチングした瞬間に通知。画面を凝視して待つ時間はもう終わりです。</p>
+                    </div>
+                    <div class="feature-card fade-in-up delay-100">
+                        <div class="icon-box">🎨</div>
+                        <h3>Custom Widgets</h3>
+                        <p>ゲーム画面を邪魔しない、スタイリッシュでカスタマイズ可能なオーバーレイ。</p>
+                    </div>
+                    <div class="feature-card fade-in-up delay-200">
+                        <div class="icon-box">🎥</div>
+                        <h3>OBS Integration</h3>
+                        <p>配信者向け機能も充実。現在のステータスを視聴者と共有できます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Features (Alternating Layout) -->
+        <section id="details" class="details-section">
+            <div class="container">
+
+                <!-- Detail 1 -->
+                <div class="detail-block">
+                    <div class="detail-text fade-in-left">
+                        <div class="label">Detection</div>
+                        <h3>精密なマッチ検出</h3>
+                        <p>先進的な画面認識技術により、Overwatch 2やApex Legendsのマッチング完了を瞬時に検出します。</p>
+                        <ul class="check-list">
+                            <li>ピクセル変動をリアルタイム解析</li>
+                            <li>誤検出を防ぐ独自アルゴリズム</li>
+                            <li>サウンド認識による高精度通知</li>
+                        </ul>
+                    </div>
+                    <div class="detail-visual fade-in-right">
+                        <div class="visual-placeholder gradient-1">
+                            <span>Detection Visual</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detail 2 -->
+                <div class="detail-block reverse">
+                    <div class="detail-text fade-in-right">
+                        <div class="label">Sharing</div>
+                        <h3>動画圧縮 & Discord共有</h3>
+                        <p>スーパープレイや決定的瞬間を、Discordで共有しやすいサイズに一発圧縮。容量制限の悩みから解放されます。</p>
+                        <ul class="check-list">
+                            <li>ワンクリックで30秒クリップ作成</li>
+                            <li>Discordの無料枠に自動最適化</li>
+                            <li>ドラッグ&ドロップで即座に共有</li>
+                        </ul>
+                    </div>
+                    <div class="detail-visual fade-in-left">
+                        <div class="visual-placeholder gradient-2">
+                            <span>Compression Visual</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detail 3 -->
+                <div class="detail-block">
+                    <div class="detail-text fade-in-left">
+                        <div class="label">Widgets</div>
+                        <h3>万能ウィジェット</h3>
+                        <p>ゲームプレイをサポートする多様なオーバーレイウィジェットを提供します。</p>
+                        <ul class="check-list">
+                            <li>勝敗カウンター（自動/手動）</li>
+                            <li>インゲーム時計・日付表示</li>
+                            <li>Spotify / YouTube Music 操作</li>
+                        </ul>
+                    </div>
+                    <div class="detail-visual fade-in-right">
+                        <div class="visual-placeholder gradient-3">
+                            <span>Widget Visual</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing-section">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Simple Pricing</h2>
+                    <p>コーヒー1杯分で、ずっと快適に。</p>
+                </div>
+
+                <div class="pricing-wrapper fade-in-up">
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <span class="plan-name">Premium Plan</span>
+                            <div class="price-container">
+                                <span class="currency">¥</span>
+                                <span class="amount">300</span>
+                                <span class="period">/ 生涯アクセス</span>
+                            </div>
+                            <a href="https://store.steampowered.com/app/4233930/MatchBuzz/" target="_blank"
+                                class="btn btn-primary full-width">
+                                今すぐアップグレード
+                            </a>
+                            <p class="note">※ 機能は順次追加予定です。フィードバック歓迎！</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="feature-group">
+                                <h4>Included Features</h4>
+                                <ul>
+                                    <li class="active">マッチ検出回数 <strong>無制限</strong></li>
+                                    <li class="active">広告表示 <strong>なし</strong></li>
+                                    <li class="active">カスタム通知音</li>
+                                    <li class="active">通知メッセージ変更</li>
+                                    <li class="active">メディア自動停止</li>
+                                    <li class="active">OBS連携機能</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>FAQ</h2>
+                </div>
+                <div class="accordion-wrapper">
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">
+                            無料で使えますか？
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>はい、基本的なマッチ通知機能は無料でお使いいただけます。</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger">
+                            どのゲームに対応していますか？
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>画面認識技術を使用しているため、多くのゲームに対応可能です。特にOverwatch 2やApex Legendsで最適化されています。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="logo-text">MatchBuzz</div>
+                <p class="copyright">&copy; 2026 MatchBuzz. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://discord.gg/JVfYAPKNuP" target="_blank">Discord</a>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
